@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+
+body{
+    background-image:url('https://i0.wp.com/img9.uhdpixel.com/wp/z/34/goku-kamehameha-mastered-perfect-ultra-instinct-dragon-ball-super-z343-197x111.jpg');
+    background-position: top right; 
+    background-repeat: no-repeat;
+
+}
+
+img {
+    height: 120px;
+    width: 120px;
+    display: block;
+    position: relative;
+    top: 480px;
+    left: 480px;
+    border-radius: 50%;
+}
+
+img:hover{
+    animation: girar 3.5s normal;
+}
+
+@keyframes girar{
+    0%{opacity: 0%}
+    20%{opacity: 100%; transform: translateX(640px) translateY(-220px)rotate(-180deg) scale(0.8)}
+    40%{opacity: 100%; transform: translateX(620px) translateY(-210px)rotate(90deg) scale(0.6)}
+    60%{opacity: 100%; transform: translateX(600px) translateY(-200px) rotate(-180deg) scale(0.4)}
+    80%{opacity: 100%; transform: translateX(590px)translateY(-190px) rotate(90deg) scale(0.2)}
+    100%{opacity: 100%; transform: translateX(570px)translateY(-180px) scale(0.1)}   
+}
+
+p{
+    display: inline-block;
+    position: relative;
+    top: 450px;
+    left: 400px;
+    background-color: rgb(253, 253, 253);
+    color: rgba(7, 64, 138, 0.863);
+    font-style: oblique;
+    font-size: 21px;
+    text-align: justify;
+}
+
+
+button{
+    margin: 50px;
+    border: 0;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #eaeaea;
+    color: #000;
+
+    transition: 
+        background-color, 0.5s,
+        color, 1s;
+    
+}
+
+button:hover {
+    background-color:  rgba(7, 64, 138, 0.863);
+    color: white;
+}
